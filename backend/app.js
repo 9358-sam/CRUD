@@ -9,7 +9,7 @@ const postsRoutes = require("./routes/posts");
 const app = express();
 
 mongoose
-.connect("mongodb+srv://sunnyk:ASDF1234@cluster0.udfn6.mongodb.net/node-react?retryWrites=true&w=majority")
+.connect("mongodb+srv://sunnyk:<"KEEP PASSWORD HERE">@cluster0.udfn6.mongodb.net/node-react?retryWrites=true&w=majority")
  .then(() => {
     console.log("connected to database")
 })
