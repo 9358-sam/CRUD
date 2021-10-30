@@ -4,8 +4,6 @@ const mongoose = require("mongoose");
 
 const postsRoutes = require("./routes/posts");
 
-
-
 const app = express();
 
 mongoose
